@@ -111,7 +111,7 @@ def print_recipe(ingredients) -> None:
     # TODO: Demander le nom d'une recette, puis l'afficher si elle existe
     nom_recette = input("C'est quoi la recette que tu veux?\n")
 
-    if nom_recette in ingredients :
+    if nom_recette in ingredients:
         for elt in ingredients[nom_recette]:
             print(elt + "\n")
 
